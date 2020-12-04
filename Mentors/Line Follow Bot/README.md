@@ -12,9 +12,10 @@ Here i'll explain the code.
 1. Everything happens when the program starts.
 2. We set the drive moters to Port B and Port C. (Note) You change this based on your bot.
 3. The moter are set to hold there position vs them rolling freely when there stopped.
-4. We contenue to drive until moter B rotates 6 times.
-5. We update the drive direction and make it move at 10% speed.
-6. We stop moving after we are done driving.
-7. We stop the program.
+4. We reset the degree count before relying on it's value in step 5.
+5. We contenue to drive until moter B rotates 6 times.
+6. We update the drive direction and make it move at 10% speed.
+7. We stop moving after we are done driving.
+8. We stop the program.
 ## More
 If you have anymore questions, ask a mentor!
